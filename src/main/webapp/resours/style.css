@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap')
+	;
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration : none;
+	color: #867070;	
+}
+
+a:hovor{
+	color: #ffffff;
+}
+
+.mainbox{
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+	
+	background-color:#D5B4B4;
+	
+	border-top-left-radius: 7px 7px;
+	border-top-right-radius: 7px 7px;
+	
+	height: 35px;
+	
+}
